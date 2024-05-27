@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://img.freepik.com/photos-premium/dark-and-colorful-geometric-abstract-background_958808-4585.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    /* gap:3rem; */
+    flex-wrap: wrap;
+    /* margin: 20px 0; */
+ height: 100vh;
+ text-transform: capitalize;
+}
+main h1{
+    color:black;
+    background-color: white;
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 3rem;
+    width: max-content;
+    height: max-content;
+}
+main p{
+    color:rgb(255, 255, 255);
+    background-color: rgb(11, 1, 1);
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+    font-size: 2rem;
+}
+ .button_box div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+main .button_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1.5rem;
+    text-align: center;
+
+}
+
+.button_box .rock{
+    background-color: rgb(197, 3, 211);
+    font-size: 4rem;
+    text-align: center;
+}
+.button_box .rock:hover{
+    background-color: azure;
+    transform: scale(1.2);
+}
+.button_box .paper:hover{
+    background-color: rgb(232, 222, 222);
+    transform: scale(1.2);
+    
+}
+.button_box .sciss:hover{
+    background-color: rgb(232, 222, 222);
+    transform: scale(1.2);
+    
+}
+.button_box .paper{
+    background-color: rgb(222, 23, 23);
+    font-size: 4rem;
+}
+.button_box .sciss{
+    background-color: rgb(41, 10, 200);
+    font-size: 4rem;
+}
+.button_box i{
+   position: relative;
+   top:10px;
+}
+.button_box i:hover{
+    color:black;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    width: max-content;
+    height: max-content;
+    font-size: 2rem;
+}
+#reset{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    color:red;
+    
+}
